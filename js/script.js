@@ -3,9 +3,9 @@ $("p").click(function() {
 })
 
 $("button").mouseenter(function() {
-    $("button").removeClass('makeRed').addClass('makeBlue');
+    $(this).removeClass('makeRed').addClass('makeBlue');
 })
 
 $("button").mouseleave(function() {
-    $("button").removeClass('makeBlue').addClass('makeRed');
+    $(this).removeClass('makeBlue').addClass('makeRed');
 })
